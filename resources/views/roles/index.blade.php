@@ -51,7 +51,7 @@
                                                 </script>
                                             @endif
                                             
-                                            @if ($role->name !== 'administrador')
+                                            @if ($role->name !== 'administrador' && $role->name !== 'cliente')
                                                 @if ($role->estado)
                                                     {!! Form::open([
                                                         'method' => 'PUT',

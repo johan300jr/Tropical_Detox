@@ -3,11 +3,11 @@
 
 @extends('layouts.auth_app')
 @section('title')
-    Admin Login
+    Inicio de sesion
 @endsection
 @section('content')
 <div class="card card-primary form-border">
-        <div class="card-header"><h2>Login</h2></div>
+        <div class="card-header"><h2>Inicio de sesion</h2></div>
 
         <div class="card-body">
             <form method="POST" action="{{ route('login') }}">
@@ -59,7 +59,7 @@
                     
                     <div class="float-right">
                         <a href="{{ route('password.request') }}" class="text-small">
-                            Olvidaste tu contraseña?
+                            ¿Olvidaste tu contraseña?
                         </a>
                     </div>
                 </div>
@@ -103,7 +103,7 @@
     </div>
 
     <div class="mt-5 text-muted text-center">
-        No estas registrado? ? <a
+        ¿No estas registrado? <a
                 href="{{ route('register') }}">Registrate</a>
     </div>
     

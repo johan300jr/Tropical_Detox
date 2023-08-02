@@ -134,7 +134,7 @@
         </div>
     </div>
     <div class="mt-5 text-muted text-center">
-        Ya tiene una cuenta ? <a
+        ¿Ya tiene una cuenta? <a
                 href="{{ route('login') }}">Inicia sesion</a>
     </div>
 
